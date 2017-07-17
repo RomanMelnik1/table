@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="contact.php">
+        <lable for="client-name">client-name:</lable>
+        <input type="text" name="client-name" id="client-name">
+        <label>Client Email
+        <input type="email" name="mail">
+        </label>
+        <br/>
+        <label>
+        <input type="text" name="car">
+        </label>
+        
+        <fieldset>
+            Your order:
+            <br/>
+        <label>PIZZA
+        <input type="checkbox" name="pizza"/>
+        </label>
+         <label>BEER
+        <input type="checkbox" name="beer"/>
+        </label>
+        <br/>
+        <label>
+        Number of pizzas:
+        <input type="number" name="namber pizzas" value="1" min="1" max="5">
+        </label>
+        <br/>
+            <lable>Comment
+                <textarea name="comment" action="https://formspree.io/melnik22222@gmail.com"></textarea>
+            </lable>
+            <input type="submit" name="sub"/>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
